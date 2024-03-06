@@ -6,9 +6,9 @@
 function match(number){
 
     if(number > 100 && number % 2 != 0) {
-        console.log("Daxil olunan ədəd 100 dən böyük tək ədəddir.")
+        console.log("Daxil olunan ədəd 100 dən böyük tək ədəddir. " + number)
     }else if(number < 100 && number % 2 == 0) {
-        console.log("Daxil olunan ədəd 100 dən kiçik cüt ədəddir.")
+        console.log("Daxil olunan ədəd 100 dən kiçik cüt ədəddir. " + number)
     }else {
         console.log("Düzgün ədəd daxil edilməyib.");
     }
