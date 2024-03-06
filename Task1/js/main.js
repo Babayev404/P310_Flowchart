@@ -5,9 +5,9 @@
 function match(number){
     
     if(number % 2 == 0){
-        console.log("Daxil Edilmiş Ədəd Cüt Ədəddir")
+        console.log("Daxil Edilmiş Ədəd Cüt Ədəddir: " + number)
     }else{
-        console.log("Daxil Edilmiş Ədəd Tək Ədəddir")
+        console.log("Daxil Edilmiş Ədəd Tək Ədəddir: " + number)
     }
 }
 
@@ -19,7 +19,7 @@ console.log(match(1))
 let numb = 2;
 
 if(numb % 2 == 0){
-    console.log("Daxil Edilmiş Ədəd Cüt Ədəddir")
+    console.log("Daxil Edilmiş Ədəd Cüt Ədəddir: " + numb)
 }else{
-    console.log("Daxil Edilmiş Ədəd Tək Ədəddir")
+    console.log("Daxil Edilmiş Ədəd Tək Ədəddir: " + numb)
 }
